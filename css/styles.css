@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.index.headings{
+    
+    font-size: 45px;
+    background-color: azure;
+    text-align: center;
+    color: rgb(174, 0, 255);
+}
+h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    background-color: azure;
+    text-align: center;
+    color: rgb(202, 59, 207);
+}
+h3.small{
+    font-size: 25px;
+}
+ul.index,li{
+    text-align: center;
+    list-style-type: none;
+    line-height: 30px;
+}
+.recipe{
+    list-style-type: circle;
+}
+.recipe li{
+    text-align: left;
+    list-style-type: square;
+    line-height: 30px;
+}
+.recipe.number li{
+    text-align: left;
+    list-style-type: decimal;
+    line-height: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
