@@ -1,0 +1,35 @@
+.main-heading{
+    border: 2px solid rgb(0, 255, 242);
+    border-radius: 30px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 32px;
+}
+
+.sub-heading{
+    border-bottom: 2px solid rgb(0, 255, 242);
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border: 2px dotted rgb(0, 255, 242);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-recipes-list{
+    list-style-type: none;
+    line-height: 30px;
+}
