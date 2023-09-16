@@ -1,51 +1,85 @@
-body {
-    background-color: aliceblue;
-    border-style: solid;
-    border-radius: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.index.headings{
-    
-    font-size: 45px;
-    background-color: azure;
-    text-align: center;
-    color: rgb(174, 0, 255);
-}
-h2,h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    background-color: azure;
-    text-align: center;
-    color: rgb(202, 59, 207);
-}
-h3.small{
-    font-size: 25px;
-}
-ul.index,li{
-    text-align: center;
-    list-style-type: none;
-    line-height: 30px;
-}
-.recipe{
-    list-style-type: circle;
-}
-.recipe li{
-    text-align: left;
-    list-style-type: square;
-    line-height: 30px;
-}
-.recipe.number li{
-    text-align: left;
-    list-style-type: decimal;
-    line-height: 30px;
-}
-ul li a{
-    text-decoration: none;
-    color: black;
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+
+body{
+    background-color:FFF5E0;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    color: #141E46;
+    background-color: #FF6969;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+
+
+.main.heading{
+    font-size: 25px;
+    background-color: #BB2525;
+    
+}
+
+.sub.heading{
+    font-size: 20px;
+    padding: 2px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 2;
+    flex-basis: auto;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #FF6969;
+    border-radius: 10px;
+    max-height: max-content;
+    margin: 5px;
+    padding: 4px;
+}
+
+ul.recipe,ol.recipe{
+    color: #ffffff;
+}
+
+li{
+    font-size: 16px;
+}
+
+ul.index{
+    list-style-type:decimal;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
 }
